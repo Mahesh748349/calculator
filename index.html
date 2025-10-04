@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calc">
+      <main class="maincontainer">
+        <input class="inpt" type="text" placeholder="0" />
+        <div class="btncontainer">
+          <button
+            class="btn"
+            onclick="
+            
+            document.querySelector('.inpt').value = ''
+            exp = ''"
+          >
+            AC
+          </button>
+          <button
+            class="btn"
+            onclick="
+          exp = exp.slice(0,-1)
+          document.querySelector('.inpt').value = exp"
+          >
+            Del
+          </button>
+          <button
+            class="btn"
+            onclick="
+            exp = exp+'1'
+          document.querySelector('.inpt').value = exp
+          "
+          >
+            1
+          </button>
+          <button
+            class="btn"
+            onclick="
+            exp = exp + '2'
+          document.querySelector('.inpt').value = exp
+          "
+          >
+            2
+          </button>
+          <button
+            class="btn"
+            onclick="
+          exp = exp + '+'
+          document.querySelector('.inpt').value = exp"
+          >
+            +
+          </button>
+          <button
+            class="btn"
+            onclick="
+          exp = exp + '3'
+          document.querySelector('.inpt').value = exp"
+          >
+            3
+          </button>
+          <button
+            class="btn"
+            onclick="
+          exp = exp + '4'
+          document.querySelector('.inpt').value = exp"
+          >
+            4
+          </button>
+          <button
+            class="btn"
+            onclick="
+          exp = exp + '5'
+          document.querySelector('.inpt').value = exp"
+          >
+            5
+          </button>
+          <button
+            class="btn"
+            onclick="
+          exp = exp + '-'
+          document.querySelector('.inpt').value = exp"
+          >
+            <h3>-</h3>
+          </button>
+          <button
+            class="btn"
+            onclick="
+          exp = exp + '6'
+          document.querySelector('.inpt').value = exp"
+          >
+            6
+          </button>
+          <button
+            class="btn"
+            onclick="
+          exp = exp + '7'
+          document.querySelector('.inpt').value = exp"
+          >
+            7
+          </button>
+          <button
+            class="btn"
+            onclick="
+          exp = exp + '8'
+          document.querySelector('.inpt').value = exp"
+          >
+            8
+          </button>
+          <button
+            class="btn"
+            onclick="
+          exp = exp + '*'
+          document.querySelector('.inpt').value = exp"
+          >
+            *
+          </button>
+          <button
+            class="btn"
+            onclick="
+          exp = exp + '9'
+          document.querySelector('.inpt').value = exp"
+          >
+            9
+          </button>
+          <button
+            class="btn"
+            onclick="
+          exp = exp + '0'
+          document.querySelector('.inpt').value = exp"
+          >
+            0
+          </button>
+          <button
+            class="btn"
+            onclick="
+          exp = exp + '.'
+          document.querySelector('.inpt').value = exp"
+          >
+            <h3>.</h3>
+          </button>
+          <button
+            class="btn"
+            onclick="
+          exp = exp + '/'
+          document.querySelector('.inpt').value = exp"
+          >
+            /
+          </button>
+          <button
+            class="btn"
+            onclick="
+          result = eval(exp)
+          document.querySelector('.inpt').value = result"
+          >
+            =
+          </button>
+        </div>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
