@@ -18,14 +18,21 @@ body {
   flex-direction: column; */
   width: 230px;
   border-radius: 10px;
-  border: 1px solid rgb(78, 77, 77);
 }
 .maincontainer {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(218, 198, 184);
+  background-color: rgb(202, 202, 201);
+  box-shadow: 5px 10px rgba(121, 121, 121, 0.3);
+  border: none;
+  border-radius: 10px;
+}
+#name {
+  position: relative;
+  float: left;
+  text-align: left;
 }
 .inpt {
   width: 200px;
@@ -33,12 +40,16 @@ body {
   text-align: right;
   margin: 20px 5px;
   font-size: 30px;
+  border: none;
+  box-shadow: 0 0 2px 3px rgb(205, 194, 175, 0.3);
 }
 .btncontainer {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 5px;
+  padding: 5px;
 }
 .btn {
   height: 45px;
@@ -48,8 +59,9 @@ body {
   margin: 3px;
   border-radius: 10px;
   margin: 3px 3px;
-  background-color: rgb(146, 215, 162);
+  background-color: rgb(189, 207, 193);
+  box-shadow: 2px 4px rgb(127, 126, 126, 0.5);
 }
 #ac {
-  background-color: rgb(203, 168, 155);
+  background-color: rgb(218, 199, 192);
 }
